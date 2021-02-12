@@ -27,7 +27,7 @@
         <input id="link" name="link" type="url" ref="link" />
       </div>
       <div>
-        <base-button type="submit">Submit</base-button>
+        <base-button type="submit">Подтвердить</base-button>
       </div>
     </form>
   </base-card>

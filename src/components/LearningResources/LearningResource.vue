@@ -3,11 +3,11 @@
     <base-card>
       <header>
         <h3>{{ title }}</h3>
-        <base-button type="button" @click="removeResource(id)" >Remove</base-button>
+        <base-button type="button" @click="removeResource(id)" >Убрать</base-button>
       </header>
       <p>{{ description }}</p>
       <nav>
-        <a target="_blank" :href="link">View Resource</a>
+        <a target="_blank" :href="link">Перейти..</a>
       </nav>
     </base-card>
   </li>
