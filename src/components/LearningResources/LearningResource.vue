@@ -7,7 +7,7 @@
       </header>
       <p>{{ description }}</p>
       <nav>
-        <a target="_blank" :href="link">Перейти..</a>
+        <a target="_blank" rel="noopener" :href="link">Перейти..</a>
       </nav>
     </base-card>
   </li>
